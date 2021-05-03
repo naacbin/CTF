@@ -57,7 +57,7 @@ If you want to simulate an android device
 ```bash
 # https://stackoverflow.com/questions/60440509/android-command-line-tools-sdkmanager-always-shows-warning-could-not-create-se
 mkdir ~/android-sdk && cd ~/android-sdk
-mv cmdline-tools tools/ && mkdir cmdline-tools 11111111111111111111&& mv tools/ cmdline-tools
+mv cmdline-tools tools/ && mkdir cmdline-tools && mv tools/ cmdline-tools
 ANDROID_SDK_ROOT=~/android-sdk
 export PATH=$PATH:$ANDROID_SDK_ROOT/cmdline-tools/latest/bin:$ANDROID_SDK_ROOT/cmdline-tools/tools/bin:~/android-sdk/platform-tools
 adb --version
